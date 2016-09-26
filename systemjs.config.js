@@ -45,7 +45,6 @@
         defaultExtension: 'js'
       },
       'ng2-dragula': {
-      //map: './ng2-dragula.js',
       main: './ng2-dragula.js',
       defaultExtension: 'js'
       },
