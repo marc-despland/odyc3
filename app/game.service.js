@@ -15,7 +15,7 @@ var GameService = (function () {
     function GameService(http) {
         this.http = http;
         this.headers = new http_1.Headers({ 'Content-Type': 'application/json' });
-        this.gameUrl = 'http://172.17.0.28:8080/api/solution'; // URL to web api
+        this.gameUrl = '/api/solution'; // URL to web api
     }
     GameService.prototype.create = function (game) {
         console.log('Sending the request');
